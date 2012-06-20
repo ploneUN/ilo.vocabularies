@@ -37,7 +37,7 @@ grok.global_utility(VocabularyFactory, IVocabularyFactory,
 
 class NonOfficialPubTypeVocabularyFactory(object):
     def __call__(self, context):
-        return SimpleVocabulary.fromValues(sorted(NONOFFICIALPUB_VALUES))
+        return SimpleVocabulary.fromValues(NONOFFICIALPUB_VALUES)
 
 grok.global_utility(NonOfficialPubTypeVocabularyFactory, IVocabularyFactory,
         name='ilo.vocabulary.publicationtypes.nonofficialpublication')
@@ -46,7 +46,7 @@ grok.global_utility(NonOfficialPubTypeVocabularyFactory, IVocabularyFactory,
 
 class WorkingPaperPubTypeVocabularyFactory(object):
     def __call__(self, context):
-        return SimpleVocabulary.fromValues(sorted(WORKINGPAPERPUBTYPE_VALUES))
+        return SimpleVocabulary.fromValues(WORKINGPAPERPUBTYPE_VALUES)
 
 grok.global_utility(WorkingPaperPubTypeVocabularyFactory, IVocabularyFactory,
         name='ilo.vocabulary.publicationtypes.workingpaper')
