@@ -14,9 +14,42 @@ VALUES=[
     'Other'
 ]
 
+NONOFFICIALPUB_VALUES=[
+    'Book',
+    'Report',
+    'Unpublished document',   
+    'Other'
+]
+
+WORKINGPAPERPUBTYPE_VALUES=[
+    'Working paper',
+    'Discussion paper',
+    'Unpublished document',
+    'Other'
+]
+
 class VocabularyFactory(object):
     def __call__(self, context):
-        return SimpleVocabulary.fromValues(VALUES)
+        return SimpleVocabulary.fromValues(sorted(VALUES))
 
 grok.global_utility(VocabularyFactory, IVocabularyFactory,
         name='ilo.vocabulary.publicationtypes')
+
+class NonOfficialPubTypeVocabularyFactory(object):
+    def __call__(self, context):
+        return SimpleVocabulary.fromValues(sorted(NONOFFICIALPUB_VALUES))
+
+grok.global_utility(NonOfficialPubTypeVocabularyFactory, IVocabularyFactory,
+        name='ilo.vocabulary.publicationtypes.nonofficialpublication')
+
+
+
+class WorkingPaperPubTypeVocabularyFactory(object):
+    def __call__(self, context):
+        return SimpleVocabulary.fromValues(sorted(WORKINGPAPERPUBTYPE_VALUES))
+
+grok.global_utility(WorkingPaperPubTypeVocabularyFactory, IVocabularyFactory,
+        name='ilo.vocabulary.publicationtypes.workingpaper')
+
+
+

@@ -10,6 +10,7 @@ VALUES=[
     'Bengali',
     'English',
     'Chinese',
+    'Dari',
     'Fijian',
     'Filipino',
     'French',
@@ -24,6 +25,7 @@ VALUES=[
     'Myanmar',
     'Nepali',
     'Pashto',
+    'Sinhala',
     'Spanish',
     'Tamil',
     'Tetun',
@@ -35,7 +37,7 @@ VALUES=[
 
 class VocabularyFactory(object):
     def __call__(self, context):
-        return SimpleVocabulary.fromValues(VALUES)
+        return SimpleVocabulary.fromValues(sorted(VALUES))
 
 grok.global_utility(VocabularyFactory, IVocabularyFactory,
         name='ilo.vocabulary.languages')
