@@ -10,21 +10,18 @@ VALUES=[
     'Report',
     'Working paper',
     'Discussion paper',
-    'Unpublished document',
     'Other'
 ]
 
 NONOFFICIALPUB_VALUES=[
     'Book',
     'Report',
-    'Unpublished document',   
     'Other'
 ]
 
 WORKINGPAPERPUBTYPE_VALUES=[
     'Working paper',
     'Discussion paper',
-    'Unpublished document',
     'Other'
 ]
 
