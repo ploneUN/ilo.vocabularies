@@ -6,10 +6,34 @@ from zope.component import getUtility
 from z3c.formwidget.query.interfaces import IQuerySource
 from Products.CMFCore.utils import getToolByName
 
+offices = [
+    'RO - Asia and the Pacific',
+    'CO - Bangkok',
+    'CO - Beijing',
+    'CO - Colombo',
+    'CO - Dhaka',
+    'CO - Hanoi',
+    'CO - Islamabad',
+    'CO - Jakarta',
+    'CO - Kathmandu',
+    'CO - Manila',
+    'CO - Suva',
+    'DWT - New Delhi',
+    'CO - New Delhi',
+    'DWT - Bangkok',
+    'ILO - Dili',
+    'ILO - Kabul',
+    'ILO - Phnom Penh',
+    'ILO - Tokyo',
+    'ILO - Vientiane',
+    'ILO - Yangon',
+    'HQ',
+    'ITC Turin',
+    'Other Regions',
+]
+
 class VocabularyFactory(object):
     def __call__(self, context):
-        portal_properties = getToolByName(context, 'portal_properties')
-        offices = portal_properties.ilo_properties.getProperty('officeopts')
         return SimpleVocabulary.fromValues(offices)
 
 grok.global_utility(VocabularyFactory, IVocabularyFactory, 
