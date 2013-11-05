@@ -72,4 +72,4 @@ class VocabularyFactory(object):
         return SimpleVocabulary.fromValues(subject_expertise)
 
 grok.global_utility(VocabularyFactory, IVocabularyFactory, 
-                    name='ilo.vocabulary.subject_experise')
+                    name='ilo.vocabulary.subject_expertise')
