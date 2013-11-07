@@ -11,6 +11,7 @@ subject_expertise = [
     "Agricultural specialist",
     "Child Labour ",
     "Development economics",
+    "Development projects",
     "Disabilities, disabled workers",
     "Domestic workers",
     "Economic reconstruction",
