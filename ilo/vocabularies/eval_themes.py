@@ -12,34 +12,34 @@ class EvalThemes(grok.GlobalUtility):
 
     _terms = [
         {
-            'value': 'employment',
+            'value': 'Employment',
             'title': 'EMPLOYMENT',
-            'token': 'employment',
+            'token': 'Employment',
         },
         {
-            'value': 'social proctection',
+            'value': 'Social proctection',
             'title': 'SOCIAL PROTECTION',
-            'token': 'social protection',
+            'token': 'Social protection',
         },
         {
-            'value': 'social dialogue',
+            'value': 'Social dialogue',
             'title': 'SOCIAL DIALOGUE',
-            'token': 'social dialogue',
+            'token': 'Social dialogue',
             },
         {
-            'value': 'work quality',
+            'value': 'Work quality',
             'title': 'WORK QUALITY',
-            'token': 'work quality',
+            'token': 'Work quality',
         },
         {
-            'value': 'enterprises',
+            'value': 'Enterprises',
             'title': 'ENTERPRISES',
-            'token': 'enterprises',
+            'token': 'Enterprises',
         },
         {
-            'value': 'sectors',
+            'value': 'Sectors',
             'title': 'SECTORS',
-            'token': 'sectors',
+            'token': 'Sectors',
         },
 
 
