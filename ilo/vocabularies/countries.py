@@ -6,19 +6,19 @@ from zope.component import getUtility
 from z3c.formwidget.query.interfaces import IQuerySource
 
 VALUES=[
-    'Afghanistan (The Islamic State of)','Bangladesh (The People\'s Republic of)',
+    'Afghanistan (The Islamic State of)','Australia','Bangladesh (The People\'s Republic of)',
     'Bhutan','Brunei Darussalam','Cambodia (The Kingdom of)', 
     'China (The People\' Republic of)', 
     'Cook Islands', 'Korea (The Republic of)', 
     'Federated States of Micronesia', 'Fiji', 'India', 'Indonesia', 
     'Iran (Islamic Republic of)', 'Japan', 'Kiribati', 
     'Lao People\'s Democratic Republic', 'Malaysia', 'Maldives (The Republic of)', 
-    'Marshall Islands', 'Mongolia', 'Myanmar', 'Nauru', 'Nepal', 'Niue',
+    'Marshall Islands', 'Mongolia', 'Myanmar', 'Nauru', 'Nepal','New Zealand','Niue',
     'Pakistan', 'Palau (The Republic of)', 'Papua New Guinea', 'Philippines', 
     'Republic of Korea', 'Samoa','Singapore (The Republic of)', 'Solomon Islands', 
     'Sri Lanka', 'Thailand (The Kingdom of)', 'Timor-Leste', 'Tokelau', 'Tonga', 
     'Tuvalu', 'Vanuatu','Viet Nam (The Socialist Republic of)',
-    'HQ','ITC Turin', 'Other Regions'
+    'HQ','ITC Turin', 'Other'
 ]
 
 class VocabularyFactory(object):
