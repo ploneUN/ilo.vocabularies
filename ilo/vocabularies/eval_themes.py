@@ -17,6 +17,11 @@ class EvalThemes(grok.GlobalUtility):
             'token': 'Employment',
         },
         {
+            'value': 'Governance',
+            'title': 'GOVERNANCE',
+            'token': 'Governance',
+        },
+        {
             'value': 'Social proctection',
             'title': 'SOCIAL PROTECTION',
             'token': 'Social protection',

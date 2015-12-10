@@ -1,10 +1,10 @@
 Changelog
 =========
 
-1.10 (unreleased)
+1.10 (2015-12-10)
 -----------------
 
-- Nothing changed yet.
+- add governance to themes.
 
 
 1.9 (2014-09-29)
