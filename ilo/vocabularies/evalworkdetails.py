@@ -6,7 +6,7 @@ from zope.component import getUtility
 from z3c.formwidget.query.interfaces import IQuerySource
 
 class EvalWorkDetails(grok.GlobalUtility):
-    grok.name('ilo.vocabulary.eval_work_details')
+    grok.name('ilo.vocabulary.eval_work_details') 
     grok.implements(IVocabularyFactory)
 
     items = [
