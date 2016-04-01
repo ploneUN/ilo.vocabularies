@@ -16,7 +16,10 @@ VALUES=[
 
 class VocabularyFactory(object):
     def __call__(self, context):
-        return SimpleVocabulary.fromValues(sorted(VALUES))
+        
+        VALUES.sort()
+        terms = [SimpleTerm(value=pair, token=pair, title=pair) for pair in VALUES]
+        return SimpleVocabulary(terms)
 
 grok.global_utility(VocabularyFactory, IVocabularyFactory,
         name='ilo.vocabulary.regions')
