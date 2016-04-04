@@ -11,16 +11,16 @@ class EvalWorkDetails(grok.GlobalUtility):
 
     items = [
         (
-         'Has worked with EVAL',
-         u'Has worked with EVAL',
+         'Worked with EVAL',
+         u'Worked with EVAL',
         ),
         (
-         'Has alert status',
-         u'Has alert status',
+         'Alert status',
+         u'Alert status',
         ),
         (
-         'Has contact eval status',
-         u'Has contact eval status',
+         'Contact eval status',
+         u'Contact eval status',
         ),
         ]
 
