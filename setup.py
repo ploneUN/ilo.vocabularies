@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.10'
+version = '1.10dev0'
 
 setup(name='ilo.vocabularies',
       version=version,
