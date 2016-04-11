@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.10dev1 (april 11, 2016)
+-----------------
+-removed eval work details
+
 1.10dev0 (april 3, 2016)
 -----------------
 -Added evalworkdetails voc
