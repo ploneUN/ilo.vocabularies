@@ -88,6 +88,7 @@ offices = [
     'NC - Tirana',
     'NC - Yerevan',
     'HQ',
+    'HQ - Geneva',
     'ITC Turin',
     'Other Regions',
 ]
