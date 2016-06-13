@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.10dev2 (april 11, 2016)
+-----------------
+-added countries and offices
+
 1.10dev1 (april 11, 2016)
 -----------------
 -removed eval work details
