@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.10dev3 (aug 1,2016)
+------------
+-added new items on country (Africa regional, Asia regional, Americas regional, Europe regional, Arab States and Inter-regional/Global)
+
 1.10dev2 (april 11, 2016)
 -----------------
 -added countries and offices
